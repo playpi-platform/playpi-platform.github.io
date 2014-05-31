@@ -1,0 +1,14 @@
+                            ,=.
+              ,=""""==.__.="  o".___
+        ,=.=="                  ___/
+  ,==.,"    ,          , \,===""
+ <     ,==)  \"'"=._.==)  \
+  `==''    `"           `"
+
+clover/snark^
+
+
+Team:
+	Eric Canales :: eric at canales.me
+	Mike Wild    :: mike at nordkril.se
+

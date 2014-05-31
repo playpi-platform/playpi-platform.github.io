@@ -1,0 +1,121 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.top10 { margin-top:10px; }
+.top20 { margin-top:20px; }
+.top30 { margin-top:30px; }
+.top40 { margin-top:40px; }
+
+
+
+body {
+	background-color: #022908;
+	padding-top: 90px;
+	padding-bottom: 80px;
+	background: url(../img/bg.jpg) no-repeat center -45px fixed;
+}
+@media only screen and (min-width: 1700px) {
+	body {
+		background: url(../img/bg.jpg) no-repeat center -45px fixed;
+        	-webkit-background-size: cover;
+	        -moz-background-size: cover;
+       		-o-background-size: cover;
+	        background-size: cover;
+	}
+}
+@media only screen and (min-height: 1080px) {
+        body {
+		background: url(../img/bg.jpg) no-repeat center -45px fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+        }
+}
+
+@media only screen and (max-width: 950px) {
+        body {
+		padding-bottom: 200px;
+		background: url(../img/bg.jpg) no-repeat left center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+
+		padding-top: 0px;
+        }
+}
+
+.collapse-group a {
+    color: white;
+}
+
+.jumbotron h1 {
+	font-size: 52px;
+	color: white;
+}
+
+.jumbotron h2, h3, h4, h5, p {
+	color: white;
+}
+
+.jumbotron h2 {
+    padding-bottom: 10px;
+}
+
+.features h2, h3, h4, h5, p, small {
+	color: white;
+}
+
+.jumbotron {
+	/* background-color: #053942; */
+	background-color: rgba(5,57,66,0.8);
+}
+
+.navbar-default {
+	background-image: none;
+	background-color: #053942;
+}
+
+.navbar-brand {
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar-text {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.btn-success {
+    background-image: none;
+    background-color: #42051a;
+	border-color: #42051a;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #FFF;
+    background-color: #590623;
+    border-color: #590623;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #DDD;
+}
+.navbar-default .navbar-brand {
+    color: #DDD;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-link:hover {
+    color: #FFF;
+}
